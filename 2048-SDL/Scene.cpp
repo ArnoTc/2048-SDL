@@ -165,6 +165,7 @@ void Scene::keyevent()
 									score += map[x][y] * 2;
 									map[x][y] *= -2;
 									t++;
+									win->mMusic->ding->play();
 								}
 								break;
 							}
@@ -195,6 +196,7 @@ void Scene::keyevent()
 									score += map[x][y] * 2;
 									map[x][y] *= -2;
 									t++;
+									win->mMusic->ding->play();
 								}
 								break;
 							}
@@ -225,6 +227,7 @@ void Scene::keyevent()
 									score += map[x][y] * 2;
 									map[x][y] *= -2;
 									t++;
+									win->mMusic->ding->play();
 								}
 								break;
 							}
@@ -255,6 +258,7 @@ void Scene::keyevent()
 									score += map[x][y] * 2;
 									map[x][y] *= -2;
 									t++;
+									win->mMusic->ding->play();
 								}
 								break;
 							}
